@@ -1,0 +1,7 @@
+# required by net-misc/curl-7.64.1::gentoo
+# required by dev-vcs/git-2.21.0::gentoo[curl]
+# required by app-portage/layman-2.4.2-r1::gentoo[git]
+# required by @selected
+# required by @world (argument)
+# /etc/portage/package.mask:
+=dev-libs/openssl-1.0.2r

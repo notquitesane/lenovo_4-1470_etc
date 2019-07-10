@@ -1,0 +1,12 @@
+#!/bin/sh
+exec tail -n +3 $0
+# This file provides an easy way to add custom menu entries.  Simply type the
+# menu entries you want to add after this comment.  Be careful not to change
+# the 'exec tail' line above.
+
+menuentry "LRS" {
+	set iso=/iso/lrs.iso
+	loopback loop ${iso}
+	linux (loop)/isolinux/rescue64 nomodeset vga=791 decache stekmap=us isoloop={$iso}
+	initrd (loop)/isolinux/initram.igz
+}

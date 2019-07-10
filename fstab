@@ -1,0 +1,3 @@
+UUID="8760-3C39" 				/boot	vfat	defaults	0 0
+UUID="d3a4ff00-bcb8-4829-8564-3144768c0e4e"	/	ext4	defaults	0 0
+UUID="edf14ab8-91eb-4c20-b394-f3bdfc049600"	none	swap	sw		0 0

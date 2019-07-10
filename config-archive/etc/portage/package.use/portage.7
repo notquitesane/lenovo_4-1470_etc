@@ -1,0 +1,12 @@
+sys-apps/portage -rsync-verify
+# required by sys-auth/consolekit-1.2.1::gentoo
+# required by sys-auth/pambase-20150213-r2::gentoo[consolekit]
+# required by net-misc/openssh-7.9_p1-r4::gentoo
+# required by virtual/ssh-0::gentoo[-minimal]
+# required by @system
+# required by @world (argument)
+>=dev-libs/glib-2.58.3 dbus
+net-misc/curl curl_ssl_libressl -curl_ssl_openssl
+sys-apps/dbus elogind
+x11-libs/libxkbcommon X
+media-libs/harfbuzz truetype
