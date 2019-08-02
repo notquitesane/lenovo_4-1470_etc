@@ -36,3 +36,5 @@ colord:x:246:
 lpadmin:x:106:
 plugdev:x:105:
 geoclue:x:104:
+cron:x:16:
+kvm:x:78:
