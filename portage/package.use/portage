@@ -174,3 +174,5 @@ sys-auth/polkit consolekit
 >=sys-auth/consolekit-1.2.1 policykit
 media-libs/libcanberra alsa
 sys-apps/accountsservice consolekit
+app-shells/zsh caps maildir examples doc gdbm
+sys-devel/llvm gold
