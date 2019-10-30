@@ -1,3 +1,2 @@
-config_eth0="10.255.0.10 netmask 255.255.255.0 brd 10.255.0.255"
-routes_eth0="default via 10.255.0.1"
-1
+config_enp2s0="10.255.0.10 netmask 255.255.255.0 brd 10.255.0.255"
+routes_enp2s0="default via 10.255.0.1"

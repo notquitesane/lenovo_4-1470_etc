@@ -55,3 +55,7 @@ sys-fs/zfs-kmod
 =virtual/perl-Data-Dumper-2.174.0 ~amd64
 # required by @__auto_slot_operator_replace_installed__ (argument)
 =virtual/perl-JSON-PP-4.20.0 ~amd64
+# required by app-portage/no-distcc-env (argument)
+=app-portage/no-distcc-env-9999 **
+# required by boinc (argument)
+=sci-misc/boinc-7.14.2 ~amd64

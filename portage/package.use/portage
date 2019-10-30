@@ -143,11 +143,11 @@ net-misc/rsync stunnel
 sys-apps/file python
 sys-libs/ncurses threads
 sys-devel/binutils default-gold
-dev-python/setuptools python_targets_python3_5
+dev-python/setuptools -python_targets_python3_5
 x11-libs/gtk+ xinerama
 dev-python/certifi python_targets_python3_5
 sys-apps/coreutils gmp
-sys-devel/gcc ssp pie graphite go mpx objc-gc objc++ objc pgo
+sys-devel/gcc ssp pie graphite go mpx objc-gc objc++ objc pgo cxx
 app-editors/vim luajit terminal python_single_target_python2_7 lua vim-pager -python_single_target_python3_6
 dev-lang/luajit lua52compat
 www-client/w3m imlib X
@@ -176,3 +176,10 @@ media-libs/libcanberra alsa
 sys-apps/accountsservice consolekit
 app-shells/zsh caps maildir examples doc gdbm
 sys-devel/llvm gold
+app-admin/sudo offensive
+sys-libs/timezone-data leaps_timezone
+sci-libs/hdf5 mpi
+sci-geosciences/gmt -netcdf
+dev-libs/libpcre pcre32 jit pcre16
+sys-libs/slang png
+net-libs/gnutls -openssl

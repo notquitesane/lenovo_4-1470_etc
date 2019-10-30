@@ -1,0 +1,4 @@
+# required by libressl (argument)
+>=dev-libs/libressl-3.0.0 openssl
+# required by c_rehash (argument)
+>=app-misc/c_rehash-1.7-r1 openssl
